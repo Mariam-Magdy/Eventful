@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  body {
+    margin: 0;
+    height: 100vh;
+    background-color: white;
+  }
+  body header {
+    height: 100vh;
+    width: 100%;
+  }
+  body header .navbar {
+    margin-bottom: 30px;
+    background-color: #4f1636;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0px;
+  }
+
+  body header .carousel-item {
+      height: 100vh;
+      width: 100%;
+  }
+
+  body header .slideImg {
+      width: 100%;
+      height: 100vh;
+  }
+
+  .searchBtn {
+      color: white;
+      background-color: #4f1636;
+  }
